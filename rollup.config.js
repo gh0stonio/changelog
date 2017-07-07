@@ -22,5 +22,5 @@ export default {
     }),
     cli()
   ],
-  external: ['events', 'child_process', 'fs', 'path']
+  external: ['events', 'child_process', 'fs', 'path', 'os']
 }
