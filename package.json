@@ -1,0 +1,34 @@
+{
+  "name": "changelog",
+  "version": "0.0.1",
+  "description": "Auto-generating changelog tool",
+  "repository": "git@github.com:gh0stonio/changelog.git",
+  "author": "gh0stonio <antoine.leveque.pro@gmail.com>",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c && chmod +x bin/changelog.js"
+  },
+  "bin": {
+    "changelog": "./bin/changelog.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-cli": "^0.1.5",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-json": "^2.1.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-watch": "^3.2.2"
+  }
+}
