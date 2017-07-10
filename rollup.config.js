@@ -24,5 +24,5 @@ export default {
     cli(),
     uglify()
   ],
-  external: ['events', 'child_process', 'fs', 'path', 'os']
+  external: ['events', 'child_process', 'fs', 'path', 'util', 'crypto', 'os', 'buffer', 'url', 'http', 'https', 'stream', 'zlib', 'string_decoder']
 }
